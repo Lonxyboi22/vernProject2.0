@@ -11,3 +11,135 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navColor{
+  background-color: #303030;
+}
+
+.background{
+  background-color: #121212;
+}
+
+.column-background{
+  margin: 20px;
+  background-color: #303030;
+  border-radius: 20px;
+}
+
+.sideBar-backdrop{
+  background-color: #d986fc;
+  margin: 30px 30px 30px 30px;
+  border-radius: 20px;
+}
+
+.sideBar-backdrop2{
+  background-color: #d986fc;
+  margin: 30px 30px 30px 30px;
+  border-radius: 20px;
+}
+
+.sideBar-backdrop3{
+  background-color: #d986fc;
+  margin: 30px 30px 30px 30px;
+  border-radius: 20px;
+}
+
+.project-section{
+  background-color: #121212;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-card1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.project-card4 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.form-spacing{
+  padding-top: 20px;
+}
+
+.contact-labels {
+  display: flex;
+  width: 150px;
+}
+
+.contact-labels::before {
+  content:"* ";
+  color: red;
+}
+
+.textField {
+  display: flex;
+  width: 500px;
+  justify-content: end;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.send-cancel {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+#gallery img {
+  height: 75vw;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  #gallery img {
+    height: 35vw;
+ }
+}
+@media (min-width: 992px) {
+  #gallery img {
+    height: 18vw;
+ }
+}
+.carousel-item img {
+  height: 60vw;
+  object-fit: cover;
+}
+@media (min-width: 576px) {
+  .carousel-item img {
+    height: 350px;
+ }
+}
