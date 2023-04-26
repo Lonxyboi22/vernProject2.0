@@ -54,46 +54,6 @@ code {
   flex-wrap: wrap;
 }
 
-.project-card1 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  flex-wrap: wrap;
-}
-
-.project-card2 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  flex-wrap: wrap;
-}
-
-.project-card3 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  flex-wrap: wrap;
-}
-
-.project-card4 {
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  flex-wrap: wrap;
-}
-
 .form-spacing{
   padding-top: 20px;
 }

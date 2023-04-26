@@ -1,12 +1,12 @@
-import "bulma/css/bulma.min.css";
 import React, { Component } from 'react';
+import "bulma/css/bulma.min.css";
 
 const Bio = (props) => {
     return (
     <div className="has-background-black">
         <div className="columns">
             <div className=" column is-3">
-                <img style={{ width: 240, height: 300 }} src={require('../images/Headshot_Babey.png')}>
+                <img style={{ width: 240, height: 300 }} src={require('../images/Headshot_Babey.png')} alt='headshot'>
                 </img>
                 <p className="has-text-grey-light bd-notification">Back Stabbath<br/>-Vern Planck</p>
             </div>
